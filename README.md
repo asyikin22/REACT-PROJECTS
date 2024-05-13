@@ -54,6 +54,17 @@ Currently, two official plugins are available:
 
 ![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/0bf89602-1811-4ee6-9a04-6e25687dcee7)
 
+# TO DO LIST 
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/f8cd8124-9bcf-4b50-b246-acd08342d876)
+
+**ISSUES**
+* I have trouble creating space between the text on the list and the 3 buttons to its right.
+* Honestly I couldnt be bothered to fix it. front end flexbox is literally the bane of my existence and i quite hate this part lol
+* The styling also didnt quite work on the buttons. I spent hours debugging looking for answer (read: asking ChatGpt)
+* I might come back to this when Im in the right mood to give it another shot 😩 
+
+
 
 
 
