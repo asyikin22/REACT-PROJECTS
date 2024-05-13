@@ -1,8 +1,8 @@
-import ColorSelector from "./COLOR/ColorSelector"
+import ToDo from "./TO-DO-LIST/ToDo"
 
 function App() {
 
-  return(<ColorSelector/>)
+  return(<ToDo/>)
   
 }
 

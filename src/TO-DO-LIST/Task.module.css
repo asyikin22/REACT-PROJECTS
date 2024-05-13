@@ -1,0 +1,53 @@
+.to-do-list {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 100px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: green;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: rgb(240, 240, 192);
+    margin-right: 5px;
+}
+
+input[type="text"] {
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-right: 20px;
+}
+
+li{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.to-do-list ol li {
+    display: flex;
+    align-items: center;
+}
+
+.to-do-list ol li .text {
+   flex: 1;
+}
+
+.to-do-list ol li button {
+    margin-left: 10px;
+ }
+
+
+ .to-do-list ol li span {
+    margin-right: 10px; /* Adjust this margin to create space */
+}
+
+
