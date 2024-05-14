@@ -62,10 +62,41 @@ Currently, two official plugins are available:
 * I have trouble creating space between the text on the list and the 3 buttons to its right.
 * Honestly I couldnt be bothered to fix it. front end flexbox is literally the bane of my existence and i quite hate this part lol
 * The styling also didnt quite work on the buttons. I spent hours debugging looking for answer (read: asking ChatGpt)
-* I might come back to this when Im in the right mood to give it another shot 😩 
+* I might come back to this when Im in the right mood to give it another shot 😩
 
 
+# DIGITAL CLOCK 🕒
 
+**SETTING UP**:
+* Import two hooks from reacts using object destructuring
+* Write export statement to App.jsx
+* Return a fragment (<></>)
+* Create HTML element
+* Style it inside module.css
+
+**MOUNT COMPONENT**: useEffect() hook = arrow function, empty array dependency
+  1) 	Start the timer only when we mount the component
+  2) 	Create a constant of interval Id. Pass in CB and time in millisecond to repeat the call back
+  3) 	Every 1000ms we will update the state of time using our setter, setTime - pass in new date object
+
+**UNMOUNT COMPONENT**: Cleanup function - return clock to zero (0)
+- Clear the time interval
+- When the component unmounts, we will return clear interval function with intervalId as parameter
+
+**Create function Format time()**
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/63d9184c-c810-4f1d-81de-3b2beac557f5)
+
+
+**Create padZero() function to give 0 to single digit**
+* Pass each of unit of time to the padZero function
+* Enclose it inside padZero function
+* Inside the function, check if number is less than 10.
+* If the number is single digit, we add 0 to the front using string  concatenation
+* If number is 2 digits, we return an empty strings - number remain the same
+* Results - unit of time with leading zero.
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/ab508851-d15f-4cf8-af86-df2fef369c76)
 
 
 
