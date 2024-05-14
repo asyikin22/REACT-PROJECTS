@@ -56,13 +56,62 @@ Currently, two official plugins are available:
 
 # TO DO LIST 
 
-![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/f8cd8124-9bcf-4b50-b246-acd08342d876)
+---------------------------
+**SETTING UP**
+---------------------------
+
+**Create 2 states variable**
+1) Task - initial state = empty array
+2) newTask - initial state = empty string
+
+**Create functions**
+* Handle input change with paramater event = text box when we type in something
+* Add task, no parameter
+* Delete task, parameter index
+* Move task up, parameter indeX
+* Move task down, parameter index
+
+---------------------------
+**HTML ELEMENTS**
+---------------------------
+**Div elements**
+  * h1 element
+  * input element
+    1) Type
+    2) Placeholder
+    3) Value
+    4) onChange event handler (handle input change)
+  * button element - onClick event handler (insert task)
+
+**Display list items:** Create an ordered list
+- Use map() method with parameter(task, index)
+- Inside map method, use an arrow function to create a list
+- Add a key for each element to keep track of it.
+- Add a span element for text, add JS current task {task}.
+- Task NOT taskS. Plural form tasks will display all three initial states in one line and repeat it for 3 times
+
+**Button**
+* Remove - onClick event handler, wrap inside arrow function - remove task call back function with index as parameter
+* Shift up - onClick event handler, wrap inside arrow function - shift task up call back function with index as parameter
+* Shift down - onClick event handler, wrap inside arrow function - shift task down call back function with index as parameter
+
+---------------------------
+**ERROR**
+---------------------------
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/60f7bd4a-572d-44f1-9f47-2e7432d33c29)
 
 **ISSUES**
 * I have trouble creating space between the text on the list and the 3 buttons to its right.
 * Honestly I couldnt be bothered to fix it. front end flexbox is literally the bane of my existence and i quite hate this part lol
 * The styling also didnt quite work on the buttons. I spent hours debugging looking for answer (read: asking ChatGpt)
 * I might come back to this when Im in the right mood to give it another shot 😩
+
+**UPDATE 14/5/2024**
+* I need to import styles as objects as because I am using CSS module for a specific component and NOT the traditions CSS file
+* I am using hyphen for my class name insert-button, so it should be encapsulated within square bracket and treated as string ("insert-button")
+* Now I can style them individually! 🎉
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/10704ee8-fec9-4278-b5d2-f137193454da)
 
 
 # DIGITAL CLOCK 🕒
