@@ -1,8 +1,8 @@
-import ToDo from "./TO-DO-LIST/ToDo"
+import Stopwatch from "./DIGITAL-CLOCK/DigitalClock"
 
 function App() {
 
-  return(<ToDo/>)
+  return(<Stopwatch/>)
   
 }
 
