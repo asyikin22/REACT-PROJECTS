@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import './Task.module.css'
+import styles from './Task.module.css'
 
 function ToDo(){
 
@@ -45,37 +45,36 @@ function ToDo(){
 
     return(
     
-    <div className="to-do-list">
+    <div className={styles["to-do-list"]}>
 
         <h1>To Do List</h1>
 
-        <input 
-        
+        <input className={styles["input-container"]}
             type="text"
             placeholder="Add a task"
             value={newTask}
             onChange={handleInputChange}/>
 
         <button
-            className="insert-button"
+            className={styles['insert-button']}
             onClick={insertTask}>
-            Insert Task 
+            Insert 
         </button>
 
         <ol>
             {tasks.map((task, index) => 
-                <li key={index}>
-                    <span className="text">{task}</span>
+                <li key={index} className={styles.listItem}>
+                    <span className={styles.text}>{task}</span>
                 
-                    <button className="remove-task"
+                    <button className={styles["remove-task"]}
                             onClick={() => removeTask(index)}>
                             X
                     </button>
-                    <button className="shift-task"
+                    <button className={styles['shift-task']}
                             onClick={() => shiftTaskUp(index)}>
                             ↑
                     </button>
-                    <button className="shift-task"
+                    <button className={styles['shift-task']}
                             onClick={() => shiftTaskDown(index)}>
                             ↓
                     </button>
