@@ -107,8 +107,11 @@ Currently, two official plugins are available:
 * I might come back to this when Im in the right mood to give it another shot 😩
 
 **UPDATE 14/5/2024**
-* I need to import styles as objects as because I am using CSS module for a specific component and NOT the traditions CSS file
-* I am using hyphen for my class name insert-button, so it should be encapsulated within square bracket and treated as string ("insert-button")
+* I need to import styles as objects because I am using CSS module for a specific component and NOT the traditional CSS file
+* For traditional CSS file method, I can just leave the className as it is
+* BUT if I have a CSS module, i need to write it as {styles.className} inside the HTML element.
+* Curly braces is used to import styles as object in HTML element.
+* For a class name that has hyphen in it, it should be encapsulated within square bracket []and be treated as string. for example - "insert-button"
 * Now I can style them individually! 🎉
 
 ![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/10704ee8-fec9-4278-b5d2-f137193454da)
