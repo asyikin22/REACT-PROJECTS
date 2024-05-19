@@ -150,6 +150,46 @@ Currently, two official plugins are available:
 
 ![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/ab508851-d15f-4cf8-af86-df2fef369c76)
 
+# WEATHER APP
+
+---------------------------
+**CODE BREAKDOWN**
+---------------------------
+
+**API SOURCE:**  https://openweathermap.org/api/one-call-3#current
+
+  &nbsp;
+  
+1) **IMPORTS**
+   - Search
+   - Styles
+   - useState and useEffect from React hooks
+     &nbsp;
+   
+3) **WEATHER COMPONENT FUNCTION**
+   - Defines weather component function
+   - Function to fetch weather data from OpenWeatherMap API
+   - useEffect hooks
+   - Function 'handleSearch' - handle search input
+   - Function 'getCurrentDate' - get current date
+   - Calculate the temperature in degree Celsius
+   - Return JSX 
+     &nbsp;
+
+5) **EXPORT DEFAULT STATEMENT** - weather component is exported as the default export
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/29f9285c-91df-443a-8ed9-ed51e7fa903e)
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/a82eca02-8f01-48fa-8a1d-b1e4d4fdf530)
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/6a6369ce-19d3-4b47-924a-8f9892e390ba)
+
+---------------------------
+**Result**
+---------------------------
+
+![image](https://github.com/asyikin22/REACT-PROJECTS/assets/148519441/09df05a0-b51c-4ff2-bb71-e609a529c205)
+
 
 
 
